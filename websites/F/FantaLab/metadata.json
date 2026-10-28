@@ -1,0 +1,41 @@
+{
+  "$schema": "https://schemas.premid.app/metadata/1.17",
+  "apiVersion": 1,
+  "author": {
+    "name": "aress6414",
+    "id": "430081564454682624"
+  },
+  "service": "FantaLab",
+  "description": {
+    "en": "Displays your current activity on FantaLab (live auctions, player guide, lineups and team management).",
+    "it": "Mostra la tua attività su FantaLab (asta live, guida all'asta, formazioni e gestione rosa)."
+  },
+  "url": "app.fantalab.it",
+  "regExp": "^https?[:][/][/]app[.]fantalab[.]it.*",
+  "version": "1.0.0",
+  "logo": "https://files.catbox.moe/pyj7kp.png",
+  "thumbnail": "https://files.catbox.moe/pyj7kp.png",
+  "color": "#0E082D",
+  "category": "games",
+  "tags": [
+    "fantacalcio",
+    "calcio",
+    "football",
+    "seriea",
+    "asta"
+  ],
+  "settings": [
+    {
+      "id": "privacy",
+      "title": "Privacy Mode",
+      "icon": "fad fa-user-secret",
+      "value": false
+    },
+    {
+      "id": "showButtons",
+      "title": "Show buttons",
+      "icon": "fas fa-compress-arrows-alt",
+      "value": true
+    }
+  ]
+}
